@@ -1,6 +1,6 @@
 // app/api/reserveSeat/route.ts
 import { NextResponse } from 'next/server'
-import { seats } from '../seats/route'
+import { seats } from '../seats/data'
 
 export async function POST(request: Request) {
   const { seatId, name } = await request.json()

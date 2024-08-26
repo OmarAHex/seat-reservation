@@ -6,5 +6,3 @@ let seats = Array.from({ length: 35 }, (_, i) => ({ id: i + 1, reserved: false, 
 export async function GET() {
   return NextResponse.json(seats)
 }
-
-export { seats }
