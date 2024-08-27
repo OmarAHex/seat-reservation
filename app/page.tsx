@@ -70,7 +70,6 @@ export default function Home() {
   };
 
   const seatTranslationTable = createTranslationTable();
-  console.log(seatTranslationTable);
 
   return (
     <div className="p-4 max-w-3xl mx-auto">
